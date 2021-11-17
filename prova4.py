@@ -222,47 +222,47 @@ while victoria < 1:
    
 
     if ma_ordinador == ma_persona:
-        print("Empat, els dos heu triat: ", ma_ordinador)
+        #print("Empat, els dos heu triat: ", ma_ordinador)
         probabilitat()
 
     else: 
         if ma_persona == "R":
             if ma_ordinador == "P":
                 puntuacio += 1
-                print("L'ordinador guanya, ha triat:", ma_ordinador)
-                print("\n", "Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
+         #       print("L'ordinador guanya, ha triat:", ma_ordinador)
+          #      print("\n", "Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
                 probabilitat()
             
             else:
                 puntuacio_jugador += 1
-                print("Tu guanyes, l'ordinador ha triat:", ma_ordinador)
-                print("\n", "Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
+           #     print("Tu guanyes, l'ordinador ha triat:", ma_ordinador)
+            #    print("\n", "Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
                 probabilitat()
 
         if ma_persona == "P":
             if ma_ordinador == "S":
                 puntuacio += 1
-                print("L'ordinador guanya, ha triat:", ma_ordinador)
-                print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
+             #   print("L'ordinador guanya, ha triat:", ma_ordinador)
+              #  print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
                 probabilitat()
             
             else:
                 puntuacio_jugador += 1
-                print("Tu guanyes, l'ordinador ha triat:", ma_ordinador)
-                print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
+               # print("Tu guanyes, l'ordinador ha triat:", ma_ordinador)
+                #print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
                 probabilitat()
 
         if ma_persona == "S":
             if ma_ordinador == "R":
                 puntuacio += 1
-                print("L'ordinador guanya, ha triat:", ma_ordinador)
-                print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
+                #print("L'ordinador guanya, ha triat:", ma_ordinador)
+               # print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
                 probabilitat()
             
             else:
                 puntuacio_jugador += 1
-                print("Tu guanyes, l'ordinador ha triat:", ma_ordinador)
-                print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
+                #print("Tu guanyes, l'ordinador ha triat:", ma_ordinador)
+                #print("\n","Punts ordinador: ",puntuacio, "\n","Punts jugador: ", puntuacio_jugador)
                 probabilitat()
 
         
